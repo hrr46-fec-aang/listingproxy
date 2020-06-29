@@ -4,6 +4,8 @@
   "description": "Mock HipCamp site",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/start.js",
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
