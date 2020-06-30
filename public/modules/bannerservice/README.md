@@ -1,2 +1,0 @@
-# bannerservice
-banner for campaang
