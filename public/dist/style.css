@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.center {
+  transform: scale(0.8, 0.8);
+  float: left;
+  padding-right: 28%;
+}
+
+.right {
+  transform: scale(1.1, 1.1);
+  float: left;
+  position: relative;
+  z-index: -1;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  margin-left: -300vw;
+  padding-left: 300vw;
+  margin-right: -300vw;
+  padding-right: 300vw;
+  margin-top: -300vw;
+  padding-top: 300vw;
+  margin-bottom: -300vw;
+  padding-bottom: 300vw;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
