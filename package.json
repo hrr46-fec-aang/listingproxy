@@ -1,17 +1,39 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "campaang",
+  "version": "1.0.0",
+  "description": "Mock HipCamp site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/start.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr46-fec-aang/listingproxy.git"
+  },
+  "author": "Danica Fisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr46-fec-aang/listingproxy/issues"
+  },
+  "homepage": "https://github.com/hrr46-fec-aang/listingproxy#readme",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
   "dependencies": {
+    "@babel/core": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
