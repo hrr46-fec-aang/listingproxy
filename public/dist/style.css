@@ -4,19 +4,20 @@
 
 .photo {
   width: 100%;
+  position: relative;
 }
 
 .center {
   transform: scale(0.8, 0.8);
   float: left;
-  padding-right: 28%;
+  padding-left: 5%;
+  width: 70%
 }
 
 .right {
   transform: scale(1.1, 1.1);
-  float: left;
+  float: right;
   position: relative;
-  z-index: -1;
 }
 
 .modal {
