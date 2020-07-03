@@ -2,10 +2,16 @@
   width: 100%;
 }
 
+.top {
+  height: 1395px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .photo {
   width: 100%;
   position: relative;
-  transform: scale(0.8, 0.8);
 }
 
 .center {
