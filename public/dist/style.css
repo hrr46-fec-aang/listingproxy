@@ -3,7 +3,7 @@
 }
 
 .top {
-  height: 1395px;
+  transform: scale(0.8, 0.8);
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
