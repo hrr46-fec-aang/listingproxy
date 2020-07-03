@@ -5,6 +5,7 @@
 .photo {
   width: 100%;
   position: relative;
+  transform: scale(0.8, 0.8);
 }
 
 .center {
